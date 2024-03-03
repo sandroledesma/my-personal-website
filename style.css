@@ -22,23 +22,51 @@ header h1 {
 .skills,
 .contact {
     margin: 20px;
+    text-align: center;
+}
+
+table {
+    border-collaps: collapse;
+    margin: 0 auto;
 }
 
 td, th {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
+    align: center;
 }
 
 h2 {
     color: #007BFF;
+    text-align: center;
 }
 
 ul {
     list-style-type: disc;
     padding: 0;
+    text-align: left;
 }
 
 ul li {
     margin-bottom: 8px;
+}
+
+.center-image {
+    text-align: center;
+}
+
+.center-image img {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container figure {
+    float: left;
+    margin: 10px;
+    text-align: center;
 }
