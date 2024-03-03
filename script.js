@@ -1,7 +1,12 @@
-const h2 = document.createElement("h2")
-h2.textContent = "This content is added by JavaScript";
+console.log('Script.js loaded!');
+document.addEventListener("DOMContentLoaded", function() {
 
-document.querySelection("body").appendChild(h2);
+    const h2 = document.createElement("h2")
+    h2.textContent = "This content is added by JavaScript";
+
+    document.querySelection("body").appendChild(h2);
+
+});
 
 document.addEventListener("DOMContentLoaded", function() {    
 

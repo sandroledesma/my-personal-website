@@ -44,7 +44,7 @@ h2 {
 
 ul {
     list-style-type: disc;
-    padding: 0;
+    padding: 2;
     text-align: left;
 }
 
@@ -57,16 +57,19 @@ ul li {
 }
 
 .center-image img {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
 }
 
 .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
 .image-container figure {
-    float: left;
+    flex: 0 0 auto;
     margin: 10px;
     text-align: center;
 }
