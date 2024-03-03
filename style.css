@@ -1,3 +1,44 @@
 body {
-    background: lightblue;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.about,
+.work,
+.skills,
+.contact {
+    margin: 20px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
 }
